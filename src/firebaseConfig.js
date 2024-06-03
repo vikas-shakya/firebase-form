@@ -1,6 +1,8 @@
 // src/firebaseConfig.js
 
 import { initializeApp } from "firebase/app";
+
+// Extra step needed
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
